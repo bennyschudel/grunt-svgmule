@@ -6,7 +6,7 @@
   "author": {
     "name": "Benny Schudel",
     "email": "bennyschudel@gmail.com",
-    "url": "benjaminschudel.com"
+    "url": "http://benjaminschudel.com"
   },
   "repository": {
     "type": "git",
@@ -40,5 +40,12 @@
   ],
   "dependencies": {
     "svgmule": "~0.4.6"
-  }
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "f2e5f0dbd15bb942468c18ed0bda1ccbc8dd43fe",
+  "main": "tasks/svgmule.js",
+  "directories": {
+    "example": "example"
+  },
+  "license": "MIT"
 }
