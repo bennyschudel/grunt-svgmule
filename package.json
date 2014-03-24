@@ -1,0 +1,44 @@
+{
+  "name": "grunt-svgmule",
+  "description": "Grunt task for svgmule. Combines and minimizes your original SVG's on a per folder basis into one single file each.",
+  "version": "0.4.0",
+  "homepage": "https://github.com/bennyschudel/grunt-svgmule",
+  "author": {
+    "name": "Benny Schudel",
+    "email": "bennyschudel@gmail.com",
+    "url": "benjaminschudel.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bennyschudel/grunt-svgmule.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bennyschudel/grunt-svgmule/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bennyschudel/grunt-svgmule/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "dev": "grunt dev"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "svgmule": "~0.4.6"
+  }
+}
