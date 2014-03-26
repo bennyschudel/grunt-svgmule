@@ -1,6 +1,6 @@
 {
   "name": "grunt-svgmule",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Grunt task for svgmule. Combines and minimizes your original SVG's on a per folder basis into one single file each.",
   "keywords": [
     "gruntplugin"
