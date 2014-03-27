@@ -28,6 +28,12 @@ module.exports = function(grunt) {
           verbose : true,
           input_dir: './example/',
           output_dir: './_build/',
+          svgo: {
+            full: false,
+            plugins: [
+              { removeViewBox: true }
+            ]
+          }
         },
       },
     },
