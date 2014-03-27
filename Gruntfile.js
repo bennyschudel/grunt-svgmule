@@ -31,9 +31,11 @@ module.exports = function(grunt) {
           svgo: {
             full: false,
             plugins: [
-              { removeViewBox: true }
-            ]
-          }
+              { removeTitle: true },
+              { removeDimensions: true },
+              { removeAttr: '(fill|color)' },
+            ],
+          },
         },
       },
     },
