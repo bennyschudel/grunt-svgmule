@@ -33,7 +33,9 @@ module.exports = function(grunt) {
             plugins: [
               { removeTitle: true },
               { removeDimensions: true },
-              { removeAttr: '(fill|color)' },
+              { removeAttr: {
+                  attrs: '(fill|color)'
+              }},
             ],
           },
         },
