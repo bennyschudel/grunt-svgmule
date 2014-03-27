@@ -23,7 +23,7 @@
     "example": "example"
   },
   "dependencies": {
-    "svgmule": "~0.4.7"
+    "svgmule": "git://github.com/bennyschudel/node-svgmule.git#custom"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
