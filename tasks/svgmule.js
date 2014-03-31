@@ -8,7 +8,7 @@
 
 'use strict';
 
-var svgmule = require('svgmule');
+var Svgmule = require('svgmule');
 
 var log = console.log;
 
@@ -31,11 +31,12 @@ module.exports = function(grunt) {
 				}
 			};
 
-			svgmule(params)
-				.then(function(rapport, data) {
-					done();
-				})
-				.done();
+			var svgmule = new Svgmule(params)
+				.run()
+					.then(function(rapport, data) {
+						done();
+					})
+					.done();
 
 	});
 
